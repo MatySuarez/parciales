@@ -37,7 +37,7 @@ import javax.swing.*;
                 ultimoMovimiento = cantidad;
                 JOptionPane.showMessageDialog(null,"Su extraccion fue de : $"+cantidad+"\nSu saldo actual es de : $"+saldo,nombreCliente,JOptionPane.PLAIN_MESSAGE);
             } else {
-                JOptionPane.showMessageDialog(null,"Imposible realizar la operacion, \n intentelo de nuevo", "Error",JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null,"Imposible realizar la operacion, \n intentelo de nuevo", "Error",JOptionPane.ERROR_MESSAGE);
             }
         }
         public void consultarUltimoMovimiento() {
